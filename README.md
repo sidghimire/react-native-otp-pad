@@ -1,1 +1,1 @@
-# react-native-otp-pad
+#This is React Native Custom OTP PAD
