@@ -1,6 +1,6 @@
 {
   "name": "react-native-otp-pad",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "OTP Pad for React Native",
   "main": "index.js",
   "scripts": {

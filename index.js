@@ -2,7 +2,6 @@ import { View, TextInput, StyleSheet } from "react-native";
 import React, { useEffect, useRef, useState } from "react";
 
 const OtpPad= ({
-  inputStyle,
   length = 4,
   caretShown = false,
   boxWidth = 60,
@@ -96,7 +95,7 @@ const OtpPad= ({
                   newValueArray[index] = txt;
                   setValue(newValueArray);
                   if (!newValueArray.includes("")) {
-                    onComplete()
+                    onComplete(newValueArray.join(""))
                   }
                   if (inputRef.current[index + 1]) {
                     inputRef.current[index + 1].focus();
