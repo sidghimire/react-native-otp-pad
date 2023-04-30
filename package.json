@@ -11,5 +11,9 @@
   "peerDependencies": {
     "react": "18.2.0",
     "react-native": "0.71.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sidghimire/react-native-otp-pad"
   }
 }
